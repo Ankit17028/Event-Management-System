@@ -29,9 +29,19 @@ Before you begin, ensure you have met the following requirements:
 - **Maven**: Ensure Maven is installed for building the project.
 - **MySQL**: Set up a MySQL database and configure it in `application.properties`.
 
+
 ## Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-repo/event-management-system.git
+
+
+##2. Set Up MySQL Database
+
+Create a MySQL database for the application:
+
+```bash
+CREATE DATABASE event_management_system;
+
