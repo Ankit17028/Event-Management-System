@@ -1,3 +1,5 @@
+# Video Link: https://www.loom.com/share/4d53a5a1f89843348429b5e99f556866?sid=6b42ad21-958f-4416-9541-e0ccde47e804
+
 # Event Management System
 
 The **Event Management System** is a web application designed to streamline the process of managing events, participants, and notifications. It provides an easy-to-use interface for event creation, RSVP management, scheduling, and notifications, with robust authentication and administration tools.
