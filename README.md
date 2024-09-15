@@ -40,8 +40,81 @@ git clone https://github.com/your-repo/event-management-system.git
 
 ### 2. Set Up MySQL Database
 
-Create a MySQL database for the application:
+Create a MySQL database for the application also make sure to change the database name:
 
 ```
-CREATE DATABASE event_mgmt_db;
+CREATE DATABASE event_management_system;
 ```
+
+Update application.properties with your MySQL credentials:
+
+properties
+
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/event_management_system
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+spring.jpa.hibernate.ddl-auto=update
+```
+
+### 3. Build the Project
+
+Run the following command to build the project:
+
+```
+mvn clean install
+```
+
+### 4. RUN DIRECTLY FROM THE main() or make sure to build your application first before running and Converge it any error occurs
+
+### OR 
+
+### 5. Run the Application
+
+```
+mvn spring-boot:run
+```
+
+### 6. Access the Application
+
+Open your browser and navigate to:
+
+```
+http://localhost:8080
+```
+
+```
+http://localhost:8080/home
+```
+
+```
+http://localhost:8080/login
+```
+
+```
+http://localhost:8080/dashboard
+```
+
+```
+http://localhost:8080/logout
+```
+
+
+### 7. Admin Dashboard
+Access the admin dashboard to manage events and users:
+
+http://localhost:8080/dashboard
+
+### 8. Display Events Profile
+
+```
+http://localhost:8080/displayProfile
+```
+
+### 8. Display Events
+
+```
+http://localhost:8080/displayEvents
+```
+
+
