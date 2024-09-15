@@ -34,13 +34,13 @@ Before you begin, ensure you have met the following requirements:
 
 ### 1. Clone the Repository
 
-bash''' 
+'''bash 
 git clone https://github.com/your-repo/event-management-system.git
 
 ### 2. Set Up MySQL Database
 
 Create a MySQL database for the application:
 
-`bash'
+'''bash
 CREATE DATABASE event_mgmt_db;
 
