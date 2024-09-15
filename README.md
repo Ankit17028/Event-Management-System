@@ -32,15 +32,15 @@ Before you begin, ensure you have met the following requirements:
 
 ## Getting Started
 
-### 1. Clone the Repository
+### 1. Clone the Repository or Download the Zip file
 
-```bash
-git clone https://github.com/your-repo/event-management-system.git
+```
+git clone https://github.com/Ankit17028/Event-Management-System.git
 ```
 
 ### 2. Set Up MySQL Database
 
-Create a MySQL database for the application also make sure to change the database name:
+# Create a MySQL database for the application also make sure to change the database name:
 
 ```
 CREATE DATABASE event_management_system;
@@ -51,6 +51,7 @@ Update application.properties with your MySQL credentials:
 properties
 
 ```
+server=8080
 spring.datasource.url=jdbc:mysql://localhost:3306/event_management_system
 spring.datasource.username=root
 spring.datasource.password=yourpassword
@@ -103,7 +104,9 @@ http://localhost:8080/logout
 ### 7. Admin Dashboard
 Access the admin dashboard to manage events and users:
 
+```
 http://localhost:8080/dashboard
+```
 
 ### 8. Display Events Profile
 
@@ -111,7 +114,7 @@ http://localhost:8080/dashboard
 http://localhost:8080/displayProfile
 ```
 
-### 8. Display Events
+### 9. Display Events
 
 ```
 http://localhost:8080/displayEvents
