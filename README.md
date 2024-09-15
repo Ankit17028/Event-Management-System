@@ -34,8 +34,8 @@ Before you begin, ensure you have met the following requirements:
 
 ### 1. Clone the Repository
 
-`bash'
-git clone https://github.com/your-repo/event-management-system.git
+` bash''' '
+git clone https://github.com/your-repo/event-management-system.git (https://github.com/Ankit17028/Event-Management-System)
 
 
 ### 2. Set Up MySQL Database
